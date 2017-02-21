@@ -414,4 +414,4 @@ user_pref("xpinstall.whitelist.add", "");
 user_pref("xpinstall.whitelist.add.180", "");
 user_pref("xpinstall.whitelist.add.36", "");
 user_pref("browser.disableResetPrompt", true);
-user_pref("browser.tabs.remote.autostart2", false);
+user_pref("browser.tabs.remote.autostart.2", false);
