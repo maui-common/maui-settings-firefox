@@ -36,7 +36,7 @@
                    NC:prettyName="Yahoo! Mail"
                    NC:uriTemplate="http://compose.mail.yahoo.com/?To=%s" />
   <RDF:Description RDF:about="urn:mimetype:handler:application/x-deb"
-                   NC:alwaysAsk="false">
+                   NC:alwaysAsk="true">
     <NC:possibleApplication RDF:resource="urn:handler:local:/usr/bin/qapt-deb-installer"/>
     <NC:possibleApplication RDF:resource="urn:handler:local:/usr/bin/gdebi"/>
     <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-deb"/>
@@ -170,7 +170,7 @@
     <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-tar"/>
   </RDF:Description>
   <RDF:Description RDF:about="urn:mimetype:handler:application/x-bittorrent"
-                   NC:alwaysAsk="false"
+                   NC:alwaysAsk="true"
                    NC:useSystemDefault="true">
     <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-bittorrent"/>
   </RDF:Description>
@@ -193,7 +193,7 @@
   </RDF:Description>
   <RDF:Description RDF:about="urn:mimetype:handler:application/pdf"
                    NC:handleInternal="true"
-                   NC:alwaysAsk="false" />
+                   NC:alwaysAsk="true" />
   <RDF:Description RDF:about="urn:mimetype:externalApplication:application/x-deb"
                    NC:prettyName="gdebi"
                    NC:path="/usr/bin/gdebi-gtk" />
