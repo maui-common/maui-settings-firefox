@@ -127,7 +127,7 @@ user_pref("extensions.antrankservice.uuid", "{61C7F66A-4AF6-49CD-84E9-5F8D383ADA
 user_pref("extensions.anttoolbar.avconv", "/usr/bin/avconv");
 user_pref("extensions.anttoolbar.display_search_box", false);
 user_pref("extensions.anttoolbar.firstrun", false);
-user_pref("extensions.anttoolbar.flvdir", "~/Downloads/Ant Videos");
+user_pref("extensions.anttoolbar.flvdir", "~/Videos");
 user_pref("extensions.anttoolbar.install_ts", 1423485538);
 user_pref("extensions.anttoolbar.last_heartbeat_ts", "1487329293225");
 user_pref("extensions.anttoolbar.show_not_found_window", false);
